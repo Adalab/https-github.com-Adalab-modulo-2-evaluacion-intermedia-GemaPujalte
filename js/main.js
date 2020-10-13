@@ -18,6 +18,8 @@ function getNumber() {
     inputClue.innerHTML = inputClue.value = "Demasiado alto";
   } else if (numberValue < randomNumber) {
     inputClue.innerHTML = inputClue.value = "Demasiado bajo";
+  } else if (numberValue === randomNumber) {
+    inputClue.innerHTML = inputClue.value = "Demasiado Has ganado campeona!!";
   }
 }
 
