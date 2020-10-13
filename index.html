@@ -7,26 +7,25 @@
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <form class="form" action="post">
+    <div class="div">
       <h1 class="h1">Adivina el número</h1>
       <p>Introduce aquí tu número</p>
       <input
         type="text"
         id="button__number"
         name="button__number"
-        class="button__number"
+        class="button__number js-button__number"
         value=""
       />
 
-      <button class="button">Prueba</button>
+      <button class="button" value="">Prueba</button>
 
       <input
-        class="clue"
+        class="clue js-clue"
         type="text"
         id="clue"
         name="clue"
-        value=""
-        placeholder="Pista: Escribe el número y dale a Prueba"
+        value="Pista: Escribe el número y dale a Prueba"
       />
 
       <input
@@ -37,7 +36,7 @@
         value=""
         placeholder="Número de intentos:0"
       />
-    </form>
+    </div>
     <script src="./js/main.js"></script>
   </body>
 </html>
