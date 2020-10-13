@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.button__number {
+  width: 150px;
+  height: 20px;
+  background-color: rgb(221, 215, 215);
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 60px;
+  height: 30px;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.clue,
+.attemps {
+  width: 300px;
+  margin-bottom: 10px;
+}
