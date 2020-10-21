@@ -1,15 +1,18 @@
-.div {
+.form {
   display: flex;
   flex-direction: column;
 }
 
-.button__number {
-  width: 150px;
+.input__number {
+  width: 200px;
   height: 20px;
   background-color: rgb(221, 215, 215);
   border: none;
   border-radius: 2px;
-  margin-bottom: 10px;
+  margin: 10px 0 10px 0;
+}
+
+.button__number {
 }
 
 .button {
@@ -26,4 +29,5 @@
 .attemps {
   width: 300px;
   margin-bottom: 10px;
+  border: 3px solid rgb(223, 220, 220);
 }

@@ -7,36 +7,23 @@
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <div class="div">
+    <form action="" class="form">
       <h1 class="h1">Adivina el número</h1>
-      <p>Introduce aquí tu número</p>
+      <p></p>
+      <label for="input__number">Introduce aquí tu número</label>
       <input
         type="text"
-        id="button__number"
-        name="button__number"
-        class="button__number js-button__number"
-        value=""
+        class="input__number js-inputNumber"
+        id="input__number "
+        placeholder="Introduce aquí tu número"
       />
 
-      <button class="button" value="">Prueba</button>
+      <button class="button js-button">Prueba</button>
 
-      <input
-        class="clue js-clue"
-        type="text"
-        id="clue"
-        name="clue"
-        value="Pista: Escribe el número y dale a Prueba"
-      />
+      <div class="clue js-clue">Pista: Escribe el número y dale a Prueba</div>
+      <div class="attemps js-attemps">Número de intentos: 0</div>
+    </form>
 
-      <input
-        class="attemps"
-        type="text"
-        id="attemps"
-        name="attemps"
-        value=""
-        placeholder="Número de intentos:0"
-      />
-    </div>
     <script src="./js/main.js"></script>
   </body>
 </html>
